@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Alegreya');
 nav{
 	background:#F8E831;
 }
@@ -18,4 +19,13 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+h3{
+	line-height: 2em;
+	float:right;
+}
+span{
+	background:#00000020;
+	color:white;
+	font-family: 'Alegreya', serif;
 }
