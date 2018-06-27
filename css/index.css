@@ -11,23 +11,12 @@ nav .brand-logo{
 body, html {
     height: 100%;
 }
-@media only screen and (max-width: 700px){
-	nav .brand-logo{
-		font-size:1.7em;
-	}
-	h5{
-		font-size:1.4em;
-	}
-}
-/*body{
-	background: url('../img/veg.jpg');
-	height: 100%; 
 
-    
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}*/
+.mobile-cover{
+	display: none;
+	margin-top:70%;
+}
+
 h3{
 	line-height: 2em;
 	float:right;
@@ -42,4 +31,27 @@ span{
 }
 .btn {
 	color:#047BD5;
+}
+@media only screen and (max-width: 700px){
+	nav .brand-logo{
+		font-size:1.7em;
+	}
+	h5{
+		font-size:1.4em;
+	}
+	body{
+		background: url('../img/mobile.jpg');
+		height: 100%; 
+
+    
+    	background-position: center;
+    	background-repeat: no-repeat;
+    	background-size: cover;
+	}
+	.mobile-cover{
+		display:block;
+	}
+	.carousel{
+		display: none;
+	}
 }
