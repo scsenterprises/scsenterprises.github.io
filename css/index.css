@@ -64,3 +64,13 @@ span{
 		background:none;
 	}
 }
+@media only screen and (max-width: 430px){
+	nav .brand-logo{
+		font-size:1.3em;
+	}
+	.mobile-cover{
+		display:block;
+		margin:auto;
+		margin-top:40%;
+	}
+}
