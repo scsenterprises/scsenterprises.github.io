@@ -1808,7 +1808,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     font-size: 6.3rem;
     line-height: 1.333;
     margin-top: 0;
-    color: #FFFFFF;
+    color: yellow;
 }
 
 .home-content__main {
