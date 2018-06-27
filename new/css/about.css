@@ -74,7 +74,7 @@ html, body {
 }
 
 body {
-    background: white;
+    background: #0C0C0C;
     font-family: "lora-regular", serif;
     font-size: 1.7rem;
     font-style: normal;
@@ -112,7 +112,7 @@ a:hover, a:active {
 h1, h2, h3, h4, h5, h6, 
 .h1, .h2, .h3, .h4, .h5, .h6 {
     font-family: "montserrat-medium", sans-serif;
-    color: black;
+    color: white;
     font-style: normal;
     font-weight: normal;
     text-rendering: optimizeLegibility;
@@ -1662,11 +1662,11 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .header-menu-toggle.opaque .header-menu-text {
-    background-color: black;
+    background-color: white;
 }
 
 .header-menu-toggle:hover, .header-menu-toggle:focus {
-    color: #0C0C0C;
+    color: white;
 }
 
 .header-menu-text {
@@ -1675,7 +1675,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     top: 0;
     left: -70px;
     width: 70px;
-    color:#0C0C0C;
+    color:yellow;
     padding-left: 12px;
 }
 
@@ -1689,9 +1689,12 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     top: 50%;
     right: auto;
     bottom: auto;
-    background-color: black;
+    background-color: yellow;
     -webkit-transition: all 0.5s ease-in-out;
     transition: all 0.5s ease-in-out;
+}
+.header-menu-icon:hover{
+    background: white;
 }
 
 .header-menu-icon::before, .header-menu-icon::after {
@@ -2202,8 +2205,8 @@ html.no-csstransitions .home-content__main {
 .s-about {
     padding-top: 16.2rem;
     padding-bottom: 9rem;
-    background-color: white;
-    color: #0C0C0C;
+    background-color: #0C0C0C;
+    color: white;
     position: relative;
 }
 
