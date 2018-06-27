@@ -8,6 +8,18 @@ nav ul a{
 nav .brand-logo{
 	color:#047BD5;	
 }
+@media only screen and (max-width: 700px){
+	nav .brand-logo{
+		font-size:1.7em;
+	}
+
+}
+@media only screen and (max-width: 430px){
+	nav .brand-logo{
+		font-size:1.3em;
+	}
+
+}
 .card-title{
 	color:#047BD5;
 }
@@ -23,6 +35,21 @@ h4{
 }
 h5{
 	line-height: 1.9em;
-	font-size:1.5em;
+	font-size:1.3em;
 	font-family: 'Muli', sans-serif;
+}
+h6{
+	color:#047BD5;
+	margin-top:-10px;
+}
+h6:hover{
+	text-decoration: underline;
+}
+i{
+	vertical-align: middle;
+}
+.btn{
+	width:100%;	
+	padding-top:2em;
+	padding-bottom:2em;
 }

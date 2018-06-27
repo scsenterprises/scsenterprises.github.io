@@ -22,3 +22,6 @@ function autoplay() {
     indicators:true
 
   });
+$(document).ready(function(){
+    $('.collapsible').collapsible();
+  });
