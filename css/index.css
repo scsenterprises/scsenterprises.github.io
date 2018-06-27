@@ -11,15 +11,15 @@ nav .brand-logo{
 body, html {
     height: 100%;
 }
-body{
+/*body{
 	background: url('../img/veg.jpg');
 	height: 100%; 
 
-    /* Center and scale the image nicely */
+    
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-}
+}*/
 h3{
 	line-height: 2em;
 	float:right;
@@ -28,4 +28,7 @@ span{
 	background:#00000020;
 	color:white;
 	font-family: 'Alegreya', serif;
+}
+.carousel { 
+	height: 90vh;
 }
